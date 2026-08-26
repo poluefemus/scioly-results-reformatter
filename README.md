@@ -9,7 +9,7 @@ This Python script reformats data from [Duosmium](https://www.duosmium.org/resul
 
 ## 🚀 Installation
 ```bash
-git clone [https://github.com/poluefemus/scioly-parser.git](https://github.com/poluefemus/scioly-parser.git)
+git clone [https://github.com/poluefemus/scioly-results-reformatter.git](https://github.com/poluefemus/scioly-results-reformatter.git)
 cd scioly-parser
 pip install pandas requests
 ```
