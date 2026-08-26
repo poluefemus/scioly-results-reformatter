@@ -18,7 +18,7 @@ pip install pandas requests
 ```bash
 python main.py <SchoolNameCamelCase> [duosmium_source] [roster_source]
 ```
-The parameters in brackets are optional. The script will automatically search for a file called data.csv (for the results) and roster.csv (for the roster) if the links for Duosmium and Google Sheets is not provided. 
+The parameters in brackets are optional. The script will automatically search for a file called data.csv (for the results) and roster.csv (for the roster) if the links for Duosmium and Google Sheets are not provided. 
 
 ## 🛠 Example Usage ([test files]([url](https://github.com/poluefemus/scioly-results-reformatter/tree/main/example_files)))
 Paste this into the terminal 
