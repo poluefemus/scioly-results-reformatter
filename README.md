@@ -20,7 +20,7 @@ python main.py <SchoolNameCamelCase> [duosmium_source] [roster_source]
 ```
 The parameters in brackets are optional. The script will automatically search for a file called data.csv (for the results) and roster.csv (for the roster) if the links for Duosmium and Google Sheets is not provided. 
 
-## 🛠 Example Usage (you can download the files in the examples folder to test)
+## 🛠 Example Usage ([test files]([url](https://github.com/poluefemus/scioly-results-reformatter/tree/main/example_files)))
 Paste this into the terminal 
 ```bash
 python main.py DuluthHighSchool https://www.duosmium.org/results/2025-10-25_uga_invitational_c/ https://docs.google.com/spreadsheets/d/1lqtl2DCOtr-68Ue3hICBALAMMCKYZuaqTsK-GH_4om8/edit?gid=0#gid=0
@@ -36,13 +36,13 @@ Try to keep the columns as Name, team, event1, event2, event3, and event4, so th
 ---
 
 #### 2. Tournament Results
-The script fetches official wide-format event rankings directly from Duosmium:
+The script fetches official event rankings directly from Duosmium:
 <br>
 <img src="https://github.com/user-attachments/assets/a58de601-b0d8-41df-9d30-951ab4f3e486" width="700" style="border: 1px solid #d0d7de; border-radius: 6px;" alt="Official Results">
 
 ---
 
 #### 3. Parsed Output Schedule
-Results are merged into an individual student schedule ready for download:
+A new csv file is created with reformatted results that are easier to analyze.
 <br>
 <img src="https://github.com/user-attachments/assets/6404e1da-81e1-4d2d-9919-c8a32a03f21e" width="400" style="border: 1px solid #d0d7de; border-radius: 6px;" alt="Parsed Schedule">
