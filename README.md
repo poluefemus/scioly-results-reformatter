@@ -23,7 +23,7 @@ The parameters in brackets are optional. The script will automatically search fo
 ## Example Usage (you can download the files in the examples folder to test)
 Paste this into the terminal 
 ```bash
-python meets/d/1lqtl2DCOtr-68Ue3hICBALAMMCKYZuaqTsK-GH_4om8/edit?gid=0#gid=0
+python main.py DuluthHighSchool https://www.duosmium.org/results/2025-10-25_uga_invitational_c/ https://docs.google.com/spreadsheets/d/1lqtl2DCOtr-68Ue3hICBALAMMCKYZuaqTsK-GH_4om8/edit?gid=0#gid=0
 ```
 ## 📸 Visual Data Flow
 
