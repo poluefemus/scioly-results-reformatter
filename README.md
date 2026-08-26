@@ -18,11 +18,31 @@ pip install pandas requests
 ```bash
 python main.py <SchoolNameCamelCase> [duosmium_source] [roster_source]
 ```
+The parameters in brackets are optional. The script will automatically search for a file called data.csv (for the results) and roster.csv (for the roster) if the links for Duosmium and Google Sheets is not provided. 
 
-## Example (you can download the files in the examples folder to test)
+## Example Usage (you can download the files in the examples folder to test)
+Code 
 ```bash
 python meets/d/1lqtl2DCOtr-68Ue3hICBALAMMCKYZuaqTsK-GH_4om8/edit?gid=0#gid=0
 ```
-Roster: <img width="607" height="695" alt="image" src="https://github.com/user-attachments/assets/3feea86d-e42e-40c0-999e-cf550830bf8c" />
-Official Results: <img width="1162" height="916" alt="image" src="https://github.com/user-attachments/assets/a58de601-b0d8-41df-9d30-951ab4f3e486" />
-Parsed Results: <img width="474" height="710" alt="image" src="https://github.com/user-attachments/assets/6404e1da-81e1-4d2d-9919-c8a32a03f21e" />
+## 📸 Visual Data Flow
+
+#### 1. Input Roster
+Keep your team roster in Google Sheets or a CSV with student event assignments.
+Try to keep the columns as Name, team, event1, event2, event3, and event4, so the program doesn't bug out.
+<br>
+<img src="https://github.com/user-attachments/assets/3feea86d-e42e-40c0-999e-cf550830bf8c" width="500" style="border: 1px solid #d0d7de; border-radius: 6px;" alt="Roster">
+
+---
+
+#### 2. Tournament Results
+The script fetches official wide-format event rankings directly from Duosmium:
+<br>
+<img src="https://github.com/user-attachments/assets/a58de601-b0d8-41df-9d30-951ab4f3e486" width="700" style="border: 1px solid #d0d7de; border-radius: 6px;" alt="Official Results">
+
+---
+
+#### 3. Parsed Output Schedule
+Results are merged into an individual student schedule ready for download:
+<br>
+<img src="https://github.com/user-attachments/assets/6404e1da-81e1-4d2d-9919-c8a32a03f21e" width="400" style="border: 1px solid #d0d7de; border-radius: 6px;" alt="Parsed Schedule">
