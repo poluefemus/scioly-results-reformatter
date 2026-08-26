@@ -14,20 +14,20 @@ cd scioly-parser
 pip install pandas requests
 ```
 
-## Usage 
+## 🛠 Usage 
 ```bash
 python main.py <SchoolNameCamelCase> [duosmium_source] [roster_source]
 ```
 The parameters in brackets are optional. The script will automatically search for a file called data.csv (for the results) and roster.csv (for the roster) if the links for Duosmium and Google Sheets is not provided. 
 
-## Example Usage (you can download the files in the examples folder to test)
+## 🛠 Example Usage (you can download the files in the examples folder to test)
 Paste this into the terminal 
 ```bash
 python main.py DuluthHighSchool https://www.duosmium.org/results/2025-10-25_uga_invitational_c/ https://docs.google.com/spreadsheets/d/1lqtl2DCOtr-68Ue3hICBALAMMCKYZuaqTsK-GH_4om8/edit?gid=0#gid=0
 ```
-## 📸 Visual Data Flow
+## 📸 Visuals
 
-#### 1. Input Roster
+#### 1. Roster
 Keep your team roster in Google Sheets or a CSV with student event assignments.
 Try to keep the columns as Name, team, event1, event2, event3, and event4, so the program doesn't bug out.
 <br>
